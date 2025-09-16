@@ -16,8 +16,8 @@ bandit0
 
 ### Solution
 
-List files  
-Print contents of *readme*
+- List files  
+- Print contents of *readme*
 ```bash
 ls  
 cat readme
@@ -42,8 +42,8 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ### Solution
 
-List files  
-Print contents of the file named -  
+- List files  
+- Print contents of the file named -  
 ```bash
 ls
 cat ./-
@@ -68,11 +68,67 @@ ssh bandit2@bandit.labs.overthewire.org -p 2220
 
 ### Solution
 
-List files  
+- List files  
+- Print contents of *--spaces in this filename--*
 ```bash
 ls
+cat ./--spaces\ in\ this\ filename--
 ```
+> *Note:* add \ before spaces in the filename 
 
 #### This gives us the password for the next level:
+
+> MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+## SSH into level 3
+
+```bash
+ssh bantit3@bandit.labs.overthewire.org -p 2220
+```
+
+### Enter password for *bandit3*
+
+```bash
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+```
+
+### Solution
+
+- List files
+- Change directory to *inhere*
+- List hidden files
+- Print contents of *...Hiding-From-You*
+```bash
+ls
+cd inhere
+ls -a
+cat ./...Hiding-From-You
+```
+> *Note:* `ls -a` lists ***all*** (hidden) files
+
+#### This gives us the password to the next level:
+
+> 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+## SSH into level 4
+
+```bash
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+```
+
+### Enter password for *bandit4*
+
+```bash
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+```
+
+### Solution
+
+- 
+```bash
+
+```
+
+#### This gives us the password to the next level:
 
 > 
