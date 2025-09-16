@@ -4,19 +4,24 @@ Notes on my journey through the bandit wargame from Over the Wire
 
 ## SSH into level 0
 
-`ssh bandit0@bandit.labs.overthewire.org -p 2220`
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+```
 
 ### Enter password for *bandit0*
 
-`bandit0`
+```bash
+bandit0
+```
 
 ### Solution
 
 List files  
-`ls`  
-
-Print contents of *readme*  
-`cat readme`  
+Print contents of *readme*
+```bash
+ls  
+cat readme
+```  
 > *Note:* `cat` = con***cat***enate
 
 #### This gives us the password for the next level:
@@ -25,19 +30,24 @@ Print contents of *readme*
 
 ## SSH into level 1
 
-`ssh bandit1@bandit.labs.overthewire.org -p 2220`
+```bash
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+```
 
 ### Enter password for *bandit1*
 
-`ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`
+```bash
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+```
 
 ### Solution
 
 List files  
-`ls`  
-
-Print contents of *-*  
-`cat ./-` 
+Print contents of the file named -  
+```bash
+ls
+cat ./-
+``` 
 > *Note:* Use full filepath to make sure - is not considered a parameter  
 
 #### This gives us the password for the next level:
@@ -46,16 +56,22 @@ Print contents of *-*
 
 ## SSH into level 2
 
-`ssh bandit2@bandit.labs.overthewire.org -p 2220`
+```bash
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+```
 
-## Enter password for *bandit2*
+### Enter password for *bandit2*
 
-`263JGJPfgU6LtdEvgfWU1XP5yac29mFx`
+```bash
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+```
 
-## Solution
+### Solution
 
 List files  
-`ls`
+```bash
+ls
+```
 
 #### This gives us the password for the next level:
 
